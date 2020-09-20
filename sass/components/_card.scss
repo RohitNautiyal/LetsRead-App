@@ -1,0 +1,37 @@
+.card {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c1d49d;
+    color: $color-grey-dark;
+    border-radius: 1rem;
+    text-align: center;
+    word-spacing: 1px;
+
+    &__img-container {
+        margin-bottom: 10px;
+    }
+
+    &__img {
+        width: 60%;
+        height: auto;
+    }
+
+    &__title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+        font-weight: 700;
+        
+    }
+
+    &__author {
+        font-size: 1.2rem;
+        // font-weight: 300;
+    }
+}

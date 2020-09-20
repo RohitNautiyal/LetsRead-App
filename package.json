@@ -1,0 +1,23 @@
+{
+  "name": "letsread",
+  "version": "1.0.0",
+  "description": "letsRead is a book manager that helps you organise your books. ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitNautiyal/letsRead.git"
+  },
+  "author": "Rohit Nautiyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitNautiyal/letsRead/issues"
+  },
+  "homepage": "https://github.com/RohitNautiyal/letsRead#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-sass": "^2.3.0"
+  }
+}

@@ -1,0 +1,15 @@
+.main-view {
+    grid-area: main-view;
+    background-color: #e8eddf;
+    overflow-y: scroll;
+    padding-top: 6rem;
+    position: relative;
+}
+
+.main-view-container {
+    padding: 5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill,minmax(170px,1fr));
+}
+

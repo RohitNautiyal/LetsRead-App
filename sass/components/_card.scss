@@ -1,18 +1,17 @@
 .card {
-    font-family: 'Lato', sans-serif;
     width: 100%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #c1d49d;
-    color: $color-grey-dark;
-    border-radius: 1rem;
+    color: $color-grey-darker;
+    border-radius: 5px;
     text-align: center;
     word-spacing: 1px;
 
     &__img-container {
-        margin-bottom: 10px;
+        margin-bottom: 1.5rem;
     }
 
     &__img {

@@ -1,0 +1,17 @@
+.rating {
+    width: 10rem;
+    height: 2rem;
+    font-size: 0;
+
+    &__star {
+        height: 2rem;
+        width: 2rem;
+        // background-image: url(../icons/star-3.png);
+        background-size: contain;
+        background-position: top;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+}

@@ -6,7 +6,7 @@
 
 html {
   font-size: 10px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 100%;
 }
 
@@ -23,6 +23,15 @@ body {
   height: 100%;
   overflow: hidden;
   position: fixed;
+  color: $color-grey-darker;
+}
+
+input, 
+textarea {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  color: inherit;
 }
 
 a:link,

@@ -1,0 +1,41 @@
+.note {
+    border-radius: 1rem;
+    overflow: hidden;
+    color: $color-grey-dark;
+    position: relative;
+
+    margin-bottom: 3rem;
+    
+    &__text {
+        font-size: 1.7rem;
+        padding: 3rem 3rem 2rem;
+        background-color: #ced4da;
+    }
+
+    &__page {
+        padding: 0.5rem 3rem;
+        font-size: 1.5rem;
+        background-color: #c0c5ca;
+    }
+
+    &__options {
+        position: absolute;
+        bottom: 2px;
+        right: 1rem;
+        cursor: context-menu;
+    }
+
+    &__option {
+        margin-left: 0.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        fill: $color-grey-dark;
+        cursor: pointer;
+
+        &:hover {
+            fill: $color-grey-darker;
+        }
+    }
+
+}
+

@@ -1,8 +1,11 @@
 .main-view {
     grid-area: main-view;
-    background-color: #f5f3f4;
     overflow-y: scroll;
     padding-top: 6rem;
     position: relative;
+}
+
+.main-view-container {
+    background-color: #f5f3f4;
 }
 

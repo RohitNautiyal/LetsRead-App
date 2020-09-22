@@ -4,25 +4,24 @@
     position: relative;
     z-index: 2;
     background-color: #0f3c41;
-}
-
-.user {
-    position: absolute;
-    top: 1rem;
-    right: 10rem;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    background-color: grey;
-}
-
-.title {
-    position: absolute;
-    top: 1.5rem;
-    left: 3rem;
-    z-index: 3;
-    font-size: 2.5rem;
-    font-size: 400;
-    color: $color-off-white;
-    line-height: 1;
+    display: flex;
+    padding: 0 3rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__title {
+        font-size: 2.5rem;
+        font-size: 400;
+        color: $color-off-white;
+        // white-space: nowrap;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+    }
+    
+    &__user-box {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        background-color: grey;
+    }
 }

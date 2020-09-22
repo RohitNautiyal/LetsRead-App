@@ -1,12 +1,10 @@
 .notes {
     padding: 3rem 5rem;
-    background-color: #e5e5e5;
 
     &__heading {
         font-size: 3rem;
         margin-bottom: 5rem;
         position: relative;
-        font-weight: 400;
 
         &:after {
             content: "";
@@ -29,7 +27,7 @@
         margin-bottom: 1rem;
         
         p {
-            padding: 0.5rem 3rem;
+            padding: 7px 3rem;
             font-size: 1.5rem;
             background-color: #c0c5ca;
         }
@@ -56,8 +54,8 @@
         width: 2rem;
         fill: $color-grey-dark;
         position: absolute;
-        bottom: 5px;
-        right: 10px;
+        bottom: 7px;
+        right: 12px;
         cursor: pointer;
     }
 }

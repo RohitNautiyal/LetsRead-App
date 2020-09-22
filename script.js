@@ -12,16 +12,16 @@ let ratingStar = document.getElementsByClassName("rating__star");
 
 for(let i=0; i<5; i++) {
     if(rating > 1) {
-        ratingStar[i].style.backgroundImage = 'url("../icons/star-3.png")';
+        ratingStar[i].style.backgroundImage = 'url("icons/star-3.png")';
     }
     else if(rating > 0.5) {
-        ratingStar[i].style.backgroundImage = 'url("../icons/star-2.png")';
+        ratingStar[i].style.backgroundImage = 'url("icons/star-2.png")';
     }
     else if(rating > 0) {
-        ratingStar[i].style.backgroundImage = 'url("../icons/star-1.png")';
+        ratingStar[i].style.backgroundImage = 'url("icons/star-1.png")';
     }
     else {
-        ratingStar[i].style.backgroundImage = 'url("../icons/star-0.png")';
+        ratingStar[i].style.backgroundImage = 'url("icons/star-0.png")';
     }
     rating--;
 }
